@@ -1,0 +1,113 @@
+* {
+  letter-spacing: -0.04em;
+}
+span {
+  display: block;
+}
+.policy_section {
+  margin-bottom: 40px;
+}
+.link_back-home {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 33px 0 0 16px;
+  font-weight: 500;
+  font-family: var(--font3);
+}
+.arrow_back {
+  width: 24px;
+  height: 24px;
+}
+.top_container {
+  @media screen and (min-width: 1440px) {
+    max-width: 1062px;
+    margin: 0 auto;
+  }
+}
+.policy_container_inner {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  @media screen and (min-width: 1440px) {
+    max-width: 1062px;
+    margin: 0 auto;
+  }
+}
+.policy_title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.3;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: var(--azul);
+  margin: 24px 0;
+  width: 100%;
+  text-align: center;
+}
+.policy_second-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: var(--azul);
+}
+.policy_third-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: -0.04em;
+  color: var(--negro);
+}
+.text_policy {
+  letter-spacing: -0.04em;
+}
+.policy_list {
+  list-style: disc;
+  margin-left: 25px;
+  max-width: 345px;
+  text-wrap: wrap;
+  @media screen and (min-width: 1440px) {
+    max-width: 1062px;
+  }
+}
+.policy_link_policy,
+.policy_link {
+  text-decoration: 1px underline;
+  text-underline-offset: 2px;
+}
+.policy_link span {
+  display: block;
+  @media screen and (min-width: 1440px) {
+    max-width: 1062px;
+    display: inline;
+  }
+}
+.policy_second_flex {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+.policy_google-link {
+  color: #1e34e0;
+  font-size: 16px;
+  line-height: 1.3;
+}
+.policy_google-list {
+  margin: 0;
+  list-style: none;
+}
+.policy_list_google-item::before {
+  content: '●';
+  inset: 0 auto 0 0;
+  margin: auto 0 auto 0;
+  color: #1e34e0;
+  font-size: 8px;
+  position: absolute;
+  height: 10px;
+}
+.policy_list_google-item {
+  padding-left: 25px;
+  position: relative;
+}
