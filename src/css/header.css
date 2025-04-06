@@ -108,6 +108,8 @@
   }
 }
 
+
+
 .header_mobile_list-section_item.active::before {
   display: block;
   content: '';
@@ -116,10 +118,17 @@
   min-width: 11px;
   max-width: 11px;
   height: 11px;
-  @media screen and (min-width: 1440px) {
+  /* @media screen and (min-width: 1440px) {
+    display: none;
+  } */
+}
+
+@media screen  and (min-width: 1440px) {
+  .header_mobile_list-section_item.active::before {
     display: none;
   }
 }
+
 .header_mobile_nav-pages_list {
   display: flex;
   flex-direction: column;
