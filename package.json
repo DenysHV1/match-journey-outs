@@ -1,11 +1,11 @@
 {
-  "name": "dream-decor",
+  "name": "match-journey-outs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/dream-decor/",
+    "build": "vite build --base=/match-journey-outs/",
     "preview": "vite preview",
     "build:preview": "vite build && vite preview",
     "predeploy": "npm run build",
