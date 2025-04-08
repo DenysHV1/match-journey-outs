@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  background-color: var(--negro);
+  background-color: #222;
   padding: 40px 0;
   @media screen and (min-width: 1440px) {
     padding: 64px 0;
@@ -22,14 +22,14 @@
   font-weight: 300;
   text-decoration: underline;
   text-decoration-skip-ink: none;
-  color: var(--blanco);
+  color: #f9fbfd;
 }
 .footer_privacy {
   display: block;
   width: 100%;
   font-weight: 300;
   text-align: center;
-  color: var(--blanco);
+  color: #f9fbfd;
 }
 .footer_privacy span {
   display: block;

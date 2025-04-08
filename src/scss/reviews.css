@@ -1,4 +1,4 @@
-.features {
+.reviews {
   width: 100%;
   scroll-margin-top: 50px;
   margin-bottom: 40px;
@@ -7,30 +7,31 @@
     scroll-margin-top: 100px;
   }
 }
-.features_container {
+.reviews_container {
   @media screen and (min-width: 1440px) {
     width: 1050px;
     margin: 0 auto;
   }
 }
-.description_grid {
+.reviews_grid {
   @media screen and (min-width: 1440px) {
     display: grid;
     gap: 40px 24px;
-    grid-template-columns: 425px 613px;
+    grid-template-columns: 302px 735px;
     align-items: center;
   }
 }
-.features_title {
+.reviews_title {
   font-weight: 600;
   font-size: 28px;
   line-height: 1.3;
   letter-spacing: -0.04em;
   text-align: center;
-  color: var(--azul);
+  color: #005bb5;
   margin-bottom: 24px;
   @media screen and (min-width: 1440px) {
     font-size: 32px;
+    font-weight: 500;
     margin: 0 auto;
     margin-bottom: 40px;
     grid-row: 1/2;
@@ -38,25 +39,40 @@
     margin: 0;
   }
 }
-.features_img-box {
+.reviews_img-box {
   width: 100%;
-  height: 170px;
+  height: 224px;
   margin-bottom: 16px;
   overflow: hidden;
   border-radius: 12px;
   @media screen and (min-width: 1440px) {
-    width: 425px;
-    height: 215px;
+    width: 302px;
+    height: 197px;
     grid-row: 2/3;
     grid-column: 1/2;
     margin: 0;
   }
 }
-.features_img-box img {
+.reviews_img-box img {
   width: 100%;
   height: 100%;
 }
-.features_second-title {
+.reviews_text {
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: -0.04em;
+  text-align: center;
+  margin-bottom: 16px;
+  @media screen and (min-width: 1440px) {
+    text-align: left;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: -0.04em;
+    color: #222;
+    margin: 0;
+  }
+}
+.reviews_second-title {
   font-weight: 500;
   font-size: 24px;
   letter-spacing: -0.04em;
@@ -65,22 +81,19 @@
   @media screen and (min-width: 1440px) {
     text-align-last: left;
     font-size: 28px;
-    margin-bottom: 24px;
   }
 }
-.features_grid_flex {
+.reviews_second-title2 {
+  @media screen and (min-width: 1440px) {
+    font-weight: 600;
+  }
+}
+.reviews_grid_flex {
   @media screen and (min-width: 1440px) {
     grid-row: 2/3;
     grid-column: 2/3;
-  }
-}
-.features_text {
-  font-size: 20px;
-  line-height: 1.3;
-  letter-spacing: -0.04em;
-  text-align: center;
-  @media screen and (min-width: 1440px) {
-    font-size: 28px;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
   }
 }

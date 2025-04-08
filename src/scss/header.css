@@ -1,5 +1,5 @@
 .header_section {
-  background-color: var(--negro);
+  background-color: #222;
   height: 48px;
   position: fixed;
   z-index: 4;
@@ -36,7 +36,7 @@
   background-image: url('../img/state-close.png');
 }
 .header_mobile_nav {
-  background-color: var(--negro);
+  background-color: #222;
   position: absolute;
   top: -600px;
   right: 0;
@@ -73,8 +73,8 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-  color: var(--blanco);
-  border-bottom: 1px solid var(--amarillo);
+  color: #f9fbfd;
+  border-bottom: 1px solid #fcf052;
   padding: 10px;
   display: flex;
   align-items: center;
@@ -101,7 +101,7 @@
     padding: 0;
     width: 0;
     height: 0.5px;
-    background-color: var(--amarillo);
+    background-color: #fcf052;
     transition: padding 0.3s ease;
   }
   .header_mobile_list-section_item:hover > .hover_span {
@@ -112,10 +112,10 @@
     bottom: 0px;
     position: absolute;
     padding: 0.5px 70px;
-    background-color: var(--amarillo);
+    background-color: #fcf052;
   } */
   .header_mobile_list-section_item.active {
-    outline: 1px solid var(--amarillo);
+    outline: 1px solid #fcf052;
     border-radius: 4px;
   }
 }
@@ -124,7 +124,7 @@
   display: block;
   content: '';
   border-radius: 50%;
-  background-color: var(--amarillo);
+  background-color: #fcf052;
   min-width: 11px;
   max-width: 11px;
   height: 11px;
@@ -146,7 +146,7 @@
   font-size: 16px;
   text-decoration: underline;
   text-decoration-skip-ink: none;
-  color: var(--blanco);
+  color: #f9fbfd;
 }
 
 @media screen and (min-width: 1440px) {
