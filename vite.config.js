@@ -13,7 +13,7 @@ export default defineConfig(({ command }) => {
     root: 'src',
     build: {
       sourcemap: true,
-      outDir: '../dist',
+
       rollupOptions: {
         input: glob.sync('./src/*.html'),
         output: {
@@ -25,6 +25,7 @@ export default defineConfig(({ command }) => {
           entryFileNames: 'commonHelpers.js',
         },
       },
+      outDir: '../dist',
     },
     plugins: [
       injectHTML(),
@@ -52,6 +53,5 @@ export default defineConfig(({ command }) => {
         },
       },
     },
-    base: '/'
   };
 });
